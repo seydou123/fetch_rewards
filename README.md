@@ -129,9 +129,10 @@ Adding more end to end testing and integration tests instead of just unit tests.
 **Kafka setup**
 
 Making sure our replication is sufficient to ensure fault tolerance. Considering what should the retention period be and our clean up process.
+
 **Proper DLQ processes**
 
-While we have a topic acting as a dea letter queue, we still lack a proper process for how we want to handle those messages. This would
+While we have a topic acting as a dea letter queue, we still lack a proper actionable process for how we want to handle those messages. This would
 be essential in a production environment.
 
 
