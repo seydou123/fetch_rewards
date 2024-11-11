@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+      "user_id": { "type": "string" },
+      "app_version": { "type": "string" },
+      "device_type": { "type": "string" },
+      "ip": { "type": "string" },
+      "locale": { "type": "string" },
+      "device_id": { "type": "string" },
+      "timestamp": { "type": "integer" }
+    },
+    "required": [
+      "user_id",
+      "app_version",
+      "device_type",
+      "ip",
+      "locale",
+      "device_id",
+      "timestamp"
+    ]
+  }
